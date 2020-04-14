@@ -44,6 +44,9 @@ Plug 'dense-analysis/ale'
 Plug 'machakann/vim-highlightedyank'
 Plug 'airblade/vim-rooter'
 Plug 'racer-rust/vim-racer'
+Plug 'airblade/vim-gitgutter'
+Plug 'terryma/vim-multiple-cursors'
+
 call plug#end()
 
 """ Coloring
