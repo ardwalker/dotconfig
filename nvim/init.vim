@@ -6,11 +6,16 @@ call plug#begin()
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
-Plug 'drewtempelmeyer/palenight.vim'
 Plug 'rakr/vim-one'
 Plug 'arzg/vim-rust-syntax-ext'
 Plug 'arzg/vim-colors-xcode'
-
+" Plug 'bluz71/vim-moonfly-colors'
+Plug 'jcherven/jummidark.vim'
+" Plug 'eemed/sitruuna.vim'
+Plug 'sainnhe/edge'
+Plug 'kamykn/dark-theme.vim'
+" Plug 'kjssad/quantum.vim'
+" Plug 'TroyFletcher/vim-colors-synthwave'
 
 " Aethetics - Additional
 Plug 'itchyny/lightline.vim'
@@ -63,7 +68,8 @@ set background=dark
 let base16colorspace=256
 syntax on
 hi Normal ctermbg=NONE
-colorscheme one
+syntax enable
+colorscheme jummidark
 
 
 " highlight Pmenu guibg=white guifg=black gui=bold
