@@ -24,6 +24,7 @@ set -gx JAVA_11_HOME (/usr/libexec/java_home -v11)
 set -gx JAVA_13_HOME (/usr/libexec/java_home -v13)
 set -gx JAVA_14_HOME (/usr/libexec/java_home -v14)
 set -gx JAVA_HOME $JAVA_8_HOME
+set -gx RUST_SRC_PATH /Users/andrew/.rustup/rustc-1.42.0-src/src
 
 #/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
 
@@ -33,8 +34,6 @@ alias java11 "set -gx JAVA_HOME=$JAVA_11_HOME"
 alias java13 "set -gx JAVA_HOME=$JAVA_13_HOME"
 alias java14 "set -gx JAVA_HOME=$JAVA_14_HOME"
 
-
-# alias sqlplus=”DYLD_LIBRARY_PATH=/Users/andrew/Dev/tools/instantclient_11_2/lib sqlplus”
 
 alias lll "ls -laph"
 alias ll "ls -lph"

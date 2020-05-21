@@ -52,6 +52,7 @@ Plug 'racer-rust/vim-racer'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 
+
 call plug#end()
 
 """ Coloring
@@ -97,6 +98,12 @@ set number
 set title
 
 """ Plugin Configurations
+
+" Racer 
+let g:racer_cmd = "/Users/andrew/.cargo/bin/racer"
+let g:racer_experimental_completer = 1
+let g:racer_insert_paren = 1
+
 
 " NERDTree
 let NERDTreeShowHidden=1
